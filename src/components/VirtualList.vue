@@ -44,7 +44,7 @@ const getPageData = (count, currentLength) => {
   }
   return DataItems
 }
-const pageSize = 40
+const pageSize = 20
 export default {
   name: 'infinite-loading',
   components: { 'virtual-list': VirtualList },
